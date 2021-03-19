@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 @Entity
 public class Employer extends AbstractEntity {
+
+
     @NotNull
     @NotBlank(message = "Field required")
     @Size(min=3, max=70)
